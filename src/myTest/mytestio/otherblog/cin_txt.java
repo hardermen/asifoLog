@@ -1,4 +1,4 @@
-package myTest.mytestio;
+package myTest.mytestio.otherblog;
 
 import java.io.File;
     import java.io.InputStreamReader;  
@@ -16,7 +16,7 @@ import java.io.File;
                 File filename = new File(pathname); // 要读取以上路径的input。txt文件  
                 InputStreamReader reader = new InputStreamReader(  
                         new FileInputStream(filename)); // 建立一个输入流对象reader  
-                BufferedReader br = new BufferedReader(reader); // 建立一个对象，它把文件内容转成计算机能读懂的语言  
+                BufferedReader br = new BufferedReader(reader); //使用缓冲流，提高读取字符的效率，并且可以使用readline方法！
                 String line = "";  
                 line = br.readLine();  
                 while (line != null) {  

@@ -1,4 +1,4 @@
-package myTest.mytestio;
+package myTest.mytestio.otherblog;
 
 import java.io.*;
 
